@@ -14,10 +14,12 @@ In this assessment,
 4. Connect to any database (PostgreSQL, MySQL, H2 etc) and create the table
 5. Build the APIs to perform CRUD on the table
    * POST /users
-      - Create new user record
+      - Create new user 
+   * PUT /users/{id}
+      - Update an user 
    * DELETE /users/{id}
-      - Logically delete user record
+      - Delete an user
    * GET /users
-      - Get all non deleted user records
+      - Get all users
    * GET /users/{id}
-      - Get specific record
+      - Get the specific user
