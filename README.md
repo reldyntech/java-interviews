@@ -23,3 +23,8 @@ In this assessment,
       - Get all users
    * GET /users/{id}
       - Get the specific user
+
+## Bonus points
+
+1. Encode the password field with Spring PasswordEncoder
+2. Include Spring Security for authentication
